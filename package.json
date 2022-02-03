@@ -1,0 +1,32 @@
+{
+  "name": "rollup-plugin-di",
+  "version": "0.0.1",
+  "description": "auto import vue component",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "pnpm test",
+    "build": "DEBUG=rollup-plugin-di* tsup src/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nemo-shen/rollup-plugin-di.git"
+  },
+  "author": "nemo-shen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nemo-shen/rollup-plugin-di/issues"
+  },
+  "homepage": "https://github.com/nemo-shen/rollup-plugin-di#readme",
+  "dependencies": {
+    "debug": "^4.3.3",
+    "magic-string": "^0.25.7"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.14",
+    "rollup": "^2.67.0",
+    "tsup": "^5.11.13"
+  }
+}
