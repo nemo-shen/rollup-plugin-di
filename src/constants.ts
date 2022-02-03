@@ -1,0 +1,1 @@
+export const baseInjectComponentName = 'rollupPluginDi_';
